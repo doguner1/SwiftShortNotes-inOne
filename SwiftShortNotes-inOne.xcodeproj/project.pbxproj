@@ -11,6 +11,8 @@
 		D01499A52C175ECA0009069B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01499A42C175ECA0009069B /* ContentView.swift */; };
 		D01499A72C175ECB0009069B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A62C175ECB0009069B /* Assets.xcassets */; };
 		D01499AA2C175ECB0009069B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A92C175ECB0009069B /* Preview Assets.xcassets */; };
+		D04F9C182C17AE7D00DD42CA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F9C172C17AE7D00DD42CA /* CameraViewController.swift */; };
+		D04F9C1C2C17AEA300DD42CA /* CA-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F9C1B2C17AEA300DD42CA /* CA-HomeView.swift */; };
 		D06932A02C175FFE00B59DB4 /* LA-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069329F2C175FFE00B59DB4 /* LA-HomeView.swift */; };
 		D06932A42C17645300B59DB4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06932A32C17645300B59DB4 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +23,8 @@
 		D01499A42C175ECA0009069B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D01499A62C175ECB0009069B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01499A92C175ECB0009069B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D04F9C172C17AE7D00DD42CA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D04F9C1B2C17AEA300DD42CA /* CA-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CA-HomeView.swift"; sourceTree = "<group>"; };
 		D069329F2C175FFE00B59DB4 /* LA-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LA-HomeView.swift"; sourceTree = "<group>"; };
 		D06932A32C17645300B59DB4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +60,7 @@
 		D01499A12C175ECA0009069B /* SwiftShortNotes-inOne */ = {
 			isa = PBXGroup;
 			children = (
+				D04F9C162C17AE5A00DD42CA /* CameraAccess */,
 				D069329E2C175FE500B59DB4 /* LocationAccess */,
 				D01499B02C175EF60009069B /* DefaultFolder */,
 				D01499A82C175ECB0009069B /* Preview Content */,
@@ -78,6 +83,15 @@
 				D01499A62C175ECB0009069B /* Assets.xcassets */,
 			);
 			path = DefaultFolder;
+			sourceTree = "<group>";
+		};
+		D04F9C162C17AE5A00DD42CA /* CameraAccess */ = {
+			isa = PBXGroup;
+			children = (
+				D04F9C172C17AE7D00DD42CA /* CameraViewController.swift */,
+				D04F9C1B2C17AEA300DD42CA /* CA-HomeView.swift */,
+			);
+			path = CameraAccess;
 			sourceTree = "<group>";
 		};
 		D069329E2C175FE500B59DB4 /* LocationAccess */ = {
@@ -160,9 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06932A42C17645300B59DB4 /* LocationManager.swift in Sources */,
+				D04F9C182C17AE7D00DD42CA /* CameraViewController.swift in Sources */,
 				D06932A02C175FFE00B59DB4 /* LA-HomeView.swift in Sources */,
 				D01499A52C175ECA0009069B /* ContentView.swift in Sources */,
 				D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */,
+				D04F9C1C2C17AEA300DD42CA /* CA-HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +317,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftShortNotes-inOne/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "Privacy - Location";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,10 +355,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftShortNotes-inOne/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "Privacy - Location";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

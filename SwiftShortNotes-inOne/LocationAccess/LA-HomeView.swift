@@ -13,13 +13,17 @@ struct LA_HomeView: View {
     @StateObject private var locationManager = LocationManager()
     @State private var location: CLLocationCoordinate2D?
     var body: some View {
-        Text("Enlem: \(locationManager.coordinates?.latitude)")
-        Text("Boylam: \(locationManager.coordinates?.longitude)")
+        Text("Enlem: \(String(describing: locationManager.coordinates?.latitude))")
+        Text("Boylam: \(String(describing: locationManager.coordinates?.longitude))")
         Button(action: {
             locationManager.requestLocation()
             
         }, label: {
             Text("Get Location")
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
         }).onAppear {
             //Sayfa açıldığı an konum çekecek
             

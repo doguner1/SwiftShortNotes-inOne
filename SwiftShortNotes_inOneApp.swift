@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftShortNotes_inOneApp: App {
     var body: some Scene {
         WindowGroup {
-            LA_HomeView()
+            CA_HomeView()
         }
     }
 }
