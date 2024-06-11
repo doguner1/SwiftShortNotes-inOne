@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */; };
-		D01499A52C175ECA0009069B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01499A42C175ECA0009069B /* ContentView.swift */; };
 		D01499A72C175ECB0009069B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A62C175ECB0009069B /* Assets.xcassets */; };
 		D01499AA2C175ECB0009069B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A92C175ECB0009069B /* Preview Assets.xcassets */; };
 		D04F9C182C17AE7D00DD42CA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F9C172C17AE7D00DD42CA /* CameraViewController.swift */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		D014999F2C175ECA0009069B /* SwiftShortNotes-inOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftShortNotes-inOne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShortNotes_inOneApp.swift; sourceTree = "<group>"; };
-		D01499A42C175ECA0009069B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D01499A62C175ECB0009069B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01499A92C175ECB0009069B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D04F9C172C17AE7D00DD42CA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 		D01499B02C175EF60009069B /* DefaultFolder */ = {
 			isa = PBXGroup;
 			children = (
-				D01499A42C175ECA0009069B /* ContentView.swift */,
 				D01499A62C175ECB0009069B /* Assets.xcassets */,
 			);
 			path = DefaultFolder;
@@ -176,7 +173,6 @@
 				D06932A42C17645300B59DB4 /* LocationManager.swift in Sources */,
 				D04F9C182C17AE7D00DD42CA /* CameraViewController.swift in Sources */,
 				D06932A02C175FFE00B59DB4 /* LA-HomeView.swift in Sources */,
-				D01499A52C175ECA0009069B /* ContentView.swift in Sources */,
 				D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */,
 				D04F9C1C2C17AEA300DD42CA /* CA-HomeView.swift in Sources */,
 			);

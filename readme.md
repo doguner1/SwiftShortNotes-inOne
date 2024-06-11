@@ -3,6 +3,8 @@
 ## İçindekiler
 1. DefaultFolder => proje oluşurken projedeki ilk dosyalar yer almakta
 2. LocationAccess => En basit cihazdan konum alma uygulaması(konum izni info ayarı yapılmalı)
+3. CameraAccess => En basit cihazdan kamera arayüze erişmek, foto çekmek ve çekilen fotoğrafı image olarak ekranda göstermek.(Kamera izni info ayarı yapılmalı)
+
 
 
 
