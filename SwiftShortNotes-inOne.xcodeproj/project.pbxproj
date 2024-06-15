@@ -164,11 +164,11 @@
 		D01499A12C175ECA0009069B /* SwiftShortNotes-inOne */ = {
 			isa = PBXGroup;
 			children = (
+				4B3BBFDC2C187A2200D0F6AD /* Extensions */,
 				4BAAE13D2C1DD4380096D008 /* ImageDataToImage */,
 				4B19F9322C1DC493008290A9 /* TransferData */,
 				4B8ECB492C1DA85400E829E9 /* List&Section&Picker */,
 				4B8ECB462C1DA6CE00E829E9 /* Stepper&Feedback */,
-				4B3BBFDC2C187A2200D0F6AD /* Extensions */,
 				4B3BBFDF2C187BCB00D0F6AD /* SideMenu */,
 				4B3BBFD72C1879A100D0F6AD /* CustomButton */,
 				4B3BBFD22C18782800D0F6AD /* CustomTextField */,
