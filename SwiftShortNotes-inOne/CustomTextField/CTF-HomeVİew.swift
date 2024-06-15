@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct CTF_HomeVI_ew: View {
+    @State private var emailID: String = ""
+    @State private var password: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(spacing: 25) {
+            Spacer(minLength: 0)
+            CustomTF(sfIcon: "at", hint: "Email ID", value: $emailID)
+            
+            CustomTF(sfIcon: "lock", hint: "Password", isPassword: true, value: $password)
+                .padding(.top, 5)
+            
+            Spacer()
+        }.padding(.vertical, 15)
+        .padding(.horizontal, 25)
     }
 }
 

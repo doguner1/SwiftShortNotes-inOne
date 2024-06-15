@@ -9,7 +9,10 @@ import SwiftUI
 
 struct CB_HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GradientButton(title: "Login", icon: "arrow.right") {
+            /// YOUR CODE
+            print("deneme")
+        }
     }
 }
 

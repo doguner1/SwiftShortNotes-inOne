@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3BBFD42C18783800D0F6AD /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFD32C18783800D0F6AD /* CustomTF.swift */; };
+		4B3BBFD62C18786D00D0F6AD /* CTF-HomeVİew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFD52C18786D00D0F6AD /* CTF-HomeVİew.swift */; };
+		4B3BBFD92C1879B900D0F6AD /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFD82C1879B900D0F6AD /* GradientButton.swift */; };
+		4B3BBFDB2C1879DE00D0F6AD /* CB-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFDA2C1879DE00D0F6AD /* CB-HomeView.swift */; };
+		4B3BBFDE2C187A7400D0F6AD /* Extension+Utils+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFDD2C187A7400D0F6AD /* Extension+Utils+View.swift */; };
+		4B3BBFE12C187BE300D0F6AD /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFE02C187BE300D0F6AD /* AnimatedSideBar.swift */; };
+		4B3BBFE32C187BFB00D0F6AD /* SM-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFE22C187BFB00D0F6AD /* SM-HomeView.swift */; };
 		D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */; };
 		D01499A72C175ECB0009069B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A62C175ECB0009069B /* Assets.xcassets */; };
 		D01499AA2C175ECB0009069B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A92C175ECB0009069B /* Preview Assets.xcassets */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3BBFD32C18783800D0F6AD /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		4B3BBFD52C18786D00D0F6AD /* CTF-HomeVİew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTF-HomeVİew.swift"; sourceTree = "<group>"; };
+		4B3BBFD82C1879B900D0F6AD /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		4B3BBFDA2C1879DE00D0F6AD /* CB-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CB-HomeView.swift"; sourceTree = "<group>"; };
+		4B3BBFDD2C187A7400D0F6AD /* Extension+Utils+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Utils+View.swift"; sourceTree = "<group>"; };
+		4B3BBFE02C187BE300D0F6AD /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
+		4B3BBFE22C187BFB00D0F6AD /* SM-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SM-HomeView.swift"; sourceTree = "<group>"; };
 		D014999F2C175ECA0009069B /* SwiftShortNotes-inOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftShortNotes-inOne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShortNotes_inOneApp.swift; sourceTree = "<group>"; };
 		D01499A62C175ECB0009069B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +52,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B3BBFD22C18782800D0F6AD /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4B3BBFD32C18783800D0F6AD /* CustomTF.swift */,
+				4B3BBFD52C18786D00D0F6AD /* CTF-HomeVİew.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		4B3BBFD72C1879A100D0F6AD /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				4B3BBFD82C1879B900D0F6AD /* GradientButton.swift */,
+				4B3BBFDA2C1879DE00D0F6AD /* CB-HomeView.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		4B3BBFDC2C187A2200D0F6AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B3BBFDD2C187A7400D0F6AD /* Extension+Utils+View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B3BBFDF2C187BCB00D0F6AD /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4B3BBFE02C187BE300D0F6AD /* AnimatedSideBar.swift */,
+				4B3BBFE22C187BFB00D0F6AD /* SM-HomeView.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 		D01499962C175ECA0009069B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +107,10 @@
 		D01499A12C175ECA0009069B /* SwiftShortNotes-inOne */ = {
 			isa = PBXGroup;
 			children = (
+				4B3BBFDC2C187A2200D0F6AD /* Extensions */,
+				4B3BBFDF2C187BCB00D0F6AD /* SideMenu */,
+				4B3BBFD72C1879A100D0F6AD /* CustomButton */,
+				4B3BBFD22C18782800D0F6AD /* CustomTextField */,
 				D04F9C162C17AE5A00DD42CA /* CameraAccess */,
 				D069329E2C175FE500B59DB4 /* LocationAccess */,
 				D01499B02C175EF60009069B /* DefaultFolder */,
@@ -171,10 +224,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06932A42C17645300B59DB4 /* LocationManager.swift in Sources */,
+				4B3BBFD92C1879B900D0F6AD /* GradientButton.swift in Sources */,
 				D04F9C182C17AE7D00DD42CA /* CameraViewController.swift in Sources */,
+				4B3BBFE12C187BE300D0F6AD /* AnimatedSideBar.swift in Sources */,
+				4B3BBFD42C18783800D0F6AD /* CustomTF.swift in Sources */,
+				4B3BBFDE2C187A7400D0F6AD /* Extension+Utils+View.swift in Sources */,
 				D06932A02C175FFE00B59DB4 /* LA-HomeView.swift in Sources */,
 				D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */,
 				D04F9C1C2C17AEA300DD42CA /* CA-HomeView.swift in Sources */,
+				4B3BBFE32C187BFB00D0F6AD /* SM-HomeView.swift in Sources */,
+				4B3BBFDB2C1879DE00D0F6AD /* CB-HomeView.swift in Sources */,
+				4B3BBFD62C18786D00D0F6AD /* CTF-HomeVİew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
