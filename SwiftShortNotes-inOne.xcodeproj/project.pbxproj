@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B19F9342C1DC4C0008290A9 /* DataSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19F9332C1DC4C0008290A9 /* DataSheet.swift */; };
+		4B19F9362C1DC58A008290A9 /* TD-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B19F9352C1DC58A008290A9 /* TD-HomeView.swift */; };
 		4B3BBFD42C18783800D0F6AD /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFD32C18783800D0F6AD /* CustomTF.swift */; };
 		4B3BBFD62C18786D00D0F6AD /* CTF-HomeVİew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFD52C18786D00D0F6AD /* CTF-HomeVİew.swift */; };
 		4B3BBFD92C1879B900D0F6AD /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFD82C1879B900D0F6AD /* GradientButton.swift */; };
@@ -14,6 +16,9 @@
 		4B3BBFDE2C187A7400D0F6AD /* Extension+Utils+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFDD2C187A7400D0F6AD /* Extension+Utils+View.swift */; };
 		4B3BBFE12C187BE300D0F6AD /* AnimatedSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFE02C187BE300D0F6AD /* AnimatedSideBar.swift */; };
 		4B3BBFE32C187BFB00D0F6AD /* SM-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBFE22C187BFB00D0F6AD /* SM-HomeView.swift */; };
+		4B8ECB402C1DA4BD00E829E9 /* ShortNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8ECB3F2C1DA4BD00E829E9 /* ShortNotes.swift */; };
+		4B8ECB482C1DA6D800E829E9 /* SF-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8ECB472C1DA6D800E829E9 /* SF-HomeView.swift */; };
+		4B8ECB4B2C1DA86D00E829E9 /* LSP-HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8ECB4A2C1DA86D00E829E9 /* LSP-HomeView.swift */; };
 		D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */; };
 		D01499A72C175ECB0009069B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A62C175ECB0009069B /* Assets.xcassets */; };
 		D01499AA2C175ECB0009069B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01499A92C175ECB0009069B /* Preview Assets.xcassets */; };
@@ -24,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B19F9332C1DC4C0008290A9 /* DataSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSheet.swift; sourceTree = "<group>"; };
+		4B19F9352C1DC58A008290A9 /* TD-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TD-HomeView.swift"; sourceTree = "<group>"; };
 		4B3BBFD32C18783800D0F6AD /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
 		4B3BBFD52C18786D00D0F6AD /* CTF-HomeVİew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTF-HomeVİew.swift"; sourceTree = "<group>"; };
 		4B3BBFD82C1879B900D0F6AD /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
@@ -31,6 +38,9 @@
 		4B3BBFDD2C187A7400D0F6AD /* Extension+Utils+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Utils+View.swift"; sourceTree = "<group>"; };
 		4B3BBFE02C187BE300D0F6AD /* AnimatedSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSideBar.swift; sourceTree = "<group>"; };
 		4B3BBFE22C187BFB00D0F6AD /* SM-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SM-HomeView.swift"; sourceTree = "<group>"; };
+		4B8ECB3F2C1DA4BD00E829E9 /* ShortNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortNotes.swift; sourceTree = "<group>"; };
+		4B8ECB472C1DA6D800E829E9 /* SF-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SF-HomeView.swift"; sourceTree = "<group>"; };
+		4B8ECB4A2C1DA86D00E829E9 /* LSP-HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LSP-HomeView.swift"; sourceTree = "<group>"; };
 		D014999F2C175ECA0009069B /* SwiftShortNotes-inOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftShortNotes-inOne.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShortNotes_inOneApp.swift; sourceTree = "<group>"; };
 		D01499A62C175ECB0009069B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B19F9322C1DC493008290A9 /* TransferData */ = {
+			isa = PBXGroup;
+			children = (
+				4B19F9332C1DC4C0008290A9 /* DataSheet.swift */,
+				4B19F9352C1DC58A008290A9 /* TD-HomeView.swift */,
+			);
+			path = TransferData;
+			sourceTree = "<group>";
+		};
 		4B3BBFD22C18782800D0F6AD /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,10 +106,35 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		4B8ECB3E2C1DA49A00E829E9 /* ShortNotes */ = {
+			isa = PBXGroup;
+			children = (
+				4B8ECB3F2C1DA4BD00E829E9 /* ShortNotes.swift */,
+			);
+			path = ShortNotes;
+			sourceTree = "<group>";
+		};
+		4B8ECB462C1DA6CE00E829E9 /* Stepper&Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				4B8ECB472C1DA6D800E829E9 /* SF-HomeView.swift */,
+			);
+			path = "Stepper&Feedback";
+			sourceTree = "<group>";
+		};
+		4B8ECB492C1DA85400E829E9 /* List&Section&Picker */ = {
+			isa = PBXGroup;
+			children = (
+				4B8ECB4A2C1DA86D00E829E9 /* LSP-HomeView.swift */,
+			);
+			path = "List&Section&Picker";
+			sourceTree = "<group>";
+		};
 		D01499962C175ECA0009069B = {
 			isa = PBXGroup;
 			children = (
 				D01499A22C175ECA0009069B /* SwiftShortNotes_inOneApp.swift */,
+				4B8ECB3E2C1DA49A00E829E9 /* ShortNotes */,
 				D01499A12C175ECA0009069B /* SwiftShortNotes-inOne */,
 				D01499A02C175ECA0009069B /* Products */,
 			);
@@ -107,6 +151,9 @@
 		D01499A12C175ECA0009069B /* SwiftShortNotes-inOne */ = {
 			isa = PBXGroup;
 			children = (
+				4B19F9322C1DC493008290A9 /* TransferData */,
+				4B8ECB492C1DA85400E829E9 /* List&Section&Picker */,
+				4B8ECB462C1DA6CE00E829E9 /* Stepper&Feedback */,
 				4B3BBFDC2C187A2200D0F6AD /* Extensions */,
 				4B3BBFDF2C187BCB00D0F6AD /* SideMenu */,
 				4B3BBFD72C1879A100D0F6AD /* CustomButton */,
@@ -227,14 +274,19 @@
 				4B3BBFD92C1879B900D0F6AD /* GradientButton.swift in Sources */,
 				D04F9C182C17AE7D00DD42CA /* CameraViewController.swift in Sources */,
 				4B3BBFE12C187BE300D0F6AD /* AnimatedSideBar.swift in Sources */,
+				4B19F9362C1DC58A008290A9 /* TD-HomeView.swift in Sources */,
 				4B3BBFD42C18783800D0F6AD /* CustomTF.swift in Sources */,
 				4B3BBFDE2C187A7400D0F6AD /* Extension+Utils+View.swift in Sources */,
 				D06932A02C175FFE00B59DB4 /* LA-HomeView.swift in Sources */,
 				D01499A32C175ECA0009069B /* SwiftShortNotes_inOneApp.swift in Sources */,
 				D04F9C1C2C17AEA300DD42CA /* CA-HomeView.swift in Sources */,
+				4B8ECB482C1DA6D800E829E9 /* SF-HomeView.swift in Sources */,
 				4B3BBFE32C187BFB00D0F6AD /* SM-HomeView.swift in Sources */,
 				4B3BBFDB2C1879DE00D0F6AD /* CB-HomeView.swift in Sources */,
+				4B8ECB4B2C1DA86D00E829E9 /* LSP-HomeView.swift in Sources */,
+				4B19F9342C1DC4C0008290A9 /* DataSheet.swift in Sources */,
 				4B3BBFD62C18786D00D0F6AD /* CTF-HomeVİew.swift in Sources */,
+				4B8ECB402C1DA4BD00E829E9 /* ShortNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

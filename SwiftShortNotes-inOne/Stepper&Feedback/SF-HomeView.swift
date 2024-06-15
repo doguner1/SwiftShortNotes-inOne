@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SF_HomeView: View {
+    @State private var gkDogruSayisi: Double = 30
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Form {
+                
+                Section{
+                    Stepper("Doğru Sayısı: \(gkDogruSayisi , specifier: "%.0f")",value: $gkDogruSayisi, in: 0...60) //->spacifier: "%.0f ile virgülden sonraki double değerlerini göstermesini engelledik"
+                    //-> "%.1f olsaydı virgülden sonra sadece bir rakamını gösterir"
+                        .sensoryFeedback(.selection, trigger: gkDogruSayisi) //gkDogruSayisinde bir değişiklik (.selection) olduğunda titreşim ver
+                }
+            }
+        }
     }
 }
 
