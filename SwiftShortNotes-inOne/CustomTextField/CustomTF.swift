@@ -8,7 +8,6 @@
 
 import SwiftUI
 
-
 struct CustomTF: View {
     var sfIcon: String
     var iconTint: Color = .gray
