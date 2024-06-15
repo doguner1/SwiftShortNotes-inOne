@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct IDTI_HomeView: View {
+    @AppStorage("imageData") var imageData: Data?
+    @State var image: UIImage?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            /*
+             imageData nın içine Image atama:
+             -> imageData = image?.jpegData(compressionQuality: 0.5)
+             
+             
+             imageDatayı imageye çevirme:
+             ->if let imageData = imageData{
+                image = UIImage(data: imageData)
+              } = data boş dolu kontrolü ile..
+             */
+        }
     }
 }
 
