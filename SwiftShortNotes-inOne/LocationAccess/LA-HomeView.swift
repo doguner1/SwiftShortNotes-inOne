@@ -26,7 +26,7 @@ struct LA_HomeView: View {
                 .cornerRadius(10)
         }).onAppear {
             //Sayfa açıldığı an konum çekecek
-            
+            locationManager.requestLocation()
         }
     }
 
